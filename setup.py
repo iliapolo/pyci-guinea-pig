@@ -26,9 +26,12 @@ PROGRAM_NAME = 'pyci-guinea-pig'
 PROJECT_NAME = 'pyci-guinea-pig'
 
 setup(
-    name=PROJECT_NAME,
+    name='pyci-guinea-pig',
     version='0.0.1',
     author='Eli Polonsky',
     author_email='eli.polonsky@gmail.com',
     license='LICENSE',
+    install_requires=[
+        'six==1.11.0'
+    ]
 )
